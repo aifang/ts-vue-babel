@@ -1,0 +1,46 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "es5",
+            "es6",
+            "es2015",
+            "es7",
+            "es2016",
+            "dom",
+            "dom.iterable",
+            "webworker",
+            "scripthost",
+            "es2015.core",
+            "es2015.collection",
+            "es2015.generator",
+            "es2015.iterable",
+            "es2015.promise",
+            "es2015.proxy",
+            "es2015.reflect",
+            "es2015.symbol",
+            "es2015.symbol.wellknown",
+            "es2016.array.include"
+        ],
+        "module": "es2015",
+        "moduleResolution": "node",
+        //"noImplicitAny": false,
+        "allowJs": true,
+        "target": "es2016",
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "awesomeTypescriptLoaderOptions": {
+        "useBabel": true,
+        "useCache": true
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts",
+        "src/gis/**/*.ts"
+    ]
+}
